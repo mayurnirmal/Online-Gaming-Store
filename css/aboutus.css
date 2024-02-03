@@ -1,0 +1,35 @@
+
+#container{
+    padding-top: 100px;
+    color: white;
+    height: 100vh;
+    width: 100%;
+   
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 100px 50px;
+}
+#container .box{
+    align-items: center;
+    width: 30%;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 60px;
+    border-radius: 20px;
+   
+}
+#container .box:hover{
+    background-color: #eeeff1;
+    border: 5px solid var(--second-color);
+}
+#container .box img{
+    background-repeat: no-repeat ;
+    background-position: center right;
+    background-size: cover;
+    width: 10rem;
+    border-radius: 20%;
+}
